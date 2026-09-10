@@ -1,136 +1,67 @@
-<div align="center">
+# 👋 Ryan Ruis
 
-# 👾 Ryan Ruis
+**Suporte Técnico (N1→N2) em SaaS** | **Automação com Python** | **Estudante de Segurança Ofensiva**
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00FF9C&center=true&vCenter=true&width=1000&lines=Cybersecurity+Student;Python+Developer;Linux+Enthusiast;Automation+Engineer;Future+Red+Teamer" />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,100:00ff99&height=180&section=header&text=Welcome%20to%20my%20profile&fontColor=ffffff&fontSize=40&animation=fadeIn"/>
-
-</div>
+Santo André, SP — Brasil · [LinkedIn](https://www.linkedin.com/in/ryan-ruis-b1a0a6277)
 
 ---
 
-# 💫 About Me
+## 💼 Quem eu sou
 
-```bash
-┌──(ryan㉿github)-[~/profile]
-└─$ whoami
+Trabalho com suporte técnico N1 em um SaaS de grande porte, em transição para N2. No dia a dia, isso significa:
 
-Cybersecurity student passionate about
-automation, offensive security and Linux.
-Building projects, learning daily and evolving
-one terminal at a time.
-```
+- Identificar bugs e reproduzir cenários de erro
+- Testar correções antes de irem pra produção
+- Traduzir problema técnico ↔ linguagem do cliente
+- Desenvolver raciocínio analítico pra isolar causa raiz, não só sintoma
 
-Meu foco atualmente está em desenvolvimento com Python, automação de processos, Linux, redes e segurança ofensiva.
-
-Gosto de criar ferramentas, estudar ambientes reais, entender como sistemas funcionam internamente e transformar conhecimento técnico em projetos práticos.
-
-Atualmente também estou desenvolvendo soluções SaaS com IA e aprofundando meus conhecimentos em:
-
-* Web Pentest
-* Active Directory
-* Bash Scripting
-* Cloud Security
-* Networking
-* Linux Privilege Escalation
-* Offensive Security
+Esse trabalho me aproximou de duas coisas que hoje guiam meus estudos: **automação** (pra parar de repetir tarefas manuais) e **segurança da informação** (pra entender como as coisas quebram, não só como consertar).
 
 ---
 
-# ⚔️ Tech Stack
+## 🐍 Automação com Python
 
-<div align="center">
+Uso Python no trabalho e em projetos pessoais para automatizar tarefas repetitivas e processar dados:
 
-<img src="https://skillicons.dev/icons?i=python,bash,linux,docker,git,github,mysql,vscode" />
-
-</div>
-
----
-
-# 📈 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEUUSUARIO&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=00000000"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEUUSUARIO&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=00000000"/>
-
-</div>
+- **Selenium / WebDriver** — automação de navegação, testes de interface, scraping
+- **Pandas** — tratamento e análise de dados
+- **OpenPyXL** — geração e manipulação de planilhas Excel
 
 ---
 
-# 🧠 Current Focus
+## 🛡️ Segurança Ofensiva (em formação ativa)
 
-```python
-class RyanRuis:
+Estou em transição de carreira estruturada, estudando diariamente para atuar como Pentester. Formação atual:
 
-    def __init__(self):
-        self.learning = [
-            "Python",
-            "Cybersecurity",
-            "Linux Internals",
-            "Offensive Security",
-            "Automation",
-            "Cloud"
-        ]
+- 🎓 Estudante de Segurança da Informação — **UNIP**
+- 🎓 Aluno — **Solyd Offensive Security** (Python, Linux/Shell para Pentest, Fundamentos de Segurança e Pentest, Criptografia)
+- 📜 **Fortinet Certified Associate** e **Fundamentals in Cybersecurity**, NSE 2, NSE 3
+- 📜 **Cibersegurança na Nuvem** — SENAI São Paulo
 
-    def goal(self):
-        return "Become a highly skilled cybersecurity professional."
-```
+Foco de estudo: metodologias de pentest, Linux, redes, e Python aplicado à automação de auditoria e segurança.
 
 ---
 
-# 🚀 Featured Interests
+## 🧰 Stack
 
-<div align="center">
-
-| Area              | Focus                                |
-| ----------------- | ------------------------------------ |
-| 🛡️ Cybersecurity | Pentest, Red Team, Security Research |
-| 🐍 Python         | Automation, APIs, Tools              |
-| 🐧 Linux          | Terminal, Scripting, Servers         |
-| ☁️ Cloud          | Infrastructure & Security            |
-| 🤖 AI             | SaaS, Automation, Content Generation |
-
-</div>
+`Python` `Selenium` `Pandas` `OpenPyXL` `Bash` `Linux` `Git/GitHub` `Fortinet (NSE)`
 
 ---
 
-# 🌐 Connect With Me
+## 🚧 Projetos
 
-<div align="center">
+> Portfólio em construção — atualizando com projetos que unem automação e segurança ofensiva.
 
-<a href="https://www.linkedin.com/in/ryan-ruis-b1a0a6277">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-</div>
-
----
-
-# ⚡ Terminal
-
-```bash
-root@ryan:~# access_status
-
-[██████████████████████████] 100%
-
-Status: ONLINE
-Focus: LEARNING
-Mode: BUILDING
-```
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
-
-</div>
+| Projeto | Descrição | Status |
+|---|---|---|
+| [Agenda de Contatos](https://github.com/ryan-ruis/Agenda-de-Contatos-em-Python) | CRUD em Python — prática de lógica e estruturas de dados | ✅ |
+| [Pokémon Terminal RPG](https://github.com/ryan-ruis/Meu-jogo-Pokemon) | RPG em terminal — POO, herança, polimorfismo, persistência com pickle | ✅ |
+| Automação Selenium + Excel | Extração de dados de sistema web → planilha automatizada | 🔜 |
+| Scanner de portas em Python | Ferramenta de reconhecimento de rede aplicando estudos de pentest | 🔜 |
 
 ---
 
-<div align="center">
+## 📫 Contato
 
-### “Every expert was once a beginner with a terminal.”
+[LinkedIn](https://www.linkedin.com/in/ryan-ruis-b1a0a6277) — aberto a oportunidades em Segurança da Informação, QA/Automação e áreas relacionadas.
 
-</div>
