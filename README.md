@@ -1,57 +1,58 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0b2416,100:00ff9c&height=210&section=header&text=Ryan%20Ruis&fontSize=56&fontColor=00ff9c&animation=twinkling&fontAlignY=36&desc=Seguran%C3%A7a%20da%20Informa%C3%A7%C3%A3o%20%C2%B7%20Linux%20%C2%B7%20Python&descAlignY=58&descSize=17" alt="Ryan Ruis" width="100%"/>
-</p>
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=680&lines=%24+whoami;Estudante+de+Seguran%C3%A7a+da+Informa%C3%A7%C3%A3o+%40+UNIP;Auditoria+Linux+%7C+Permiss%C3%B5es+%7C+SUID;Python+para+ferramentas+de+seguran%C3%A7a;Entender+como+quebra+%E2%86%92+saber+como+proteger" alt="Typing SVG"/>
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0b2416,100:00ff9c&height=200&section=header&text=Ryan%20Ruis&fontSize=56&fontColor=00ff9c&animation=twinkling&fontAlignY=36&desc=Seguran%C3%A7a%20da%20Informa%C3%A7%C3%A3o%20%C2%B7%20Linux%20%C2%B7%20Python&descAlignY=58&descSize=17" alt="Ryan Ruis" width="100%"/>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ryan-ruis-b1a0a6277"><img src="https://img.shields.io/badge/LinkedIn-Ryan%20Ruis-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:ryan.ruissilvaatitude@gmail.com"><img src="https://img.shields.io/badge/E--mail-Contato-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"/></a>
   <img src="https://img.shields.io/badge/TryHackMe-Estudando-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe"/>
-  <img src="https://img.shields.io/badge/Santo%20Andr%C3%A9-SP-0d1117?style=for-the-badge&logo=googlemaps&logoColor=00ff9c" alt="Localização"/>
+  <img src="https://komarev.com/ghpvc/?username=ryan-ruis&label=VISITAS&color=00ff9c&style=for-the-badge" alt="Visitas ao perfil"/>
+</p>
+
+<p align="center">
+  <img src="./assets/terminal.svg" alt="Terminal animado: whoami, execução do SUID Scanner e objetivo" width="90%"/>
 </p>
 
 ---
 
-## `> whoami`
+## 📡 Reconhecimento do alvo
 
-```bash
-┌──(ryan㉿ruis)-[~]
-└─$ cat perfil.txt
+```console
+ryan@ruis:~$ nmap -sV --script=perfil ryan-ruis
 
-  nome      : Ryan Ruis
-  formação  : Tecnólogo em Segurança da Informação — UNIP (último semestre)
-  trabalho  : Suporte Técnico em plataforma SaaS (N1 → N2)
-  foco      : Linux · Redes · Python para segurança · Auditoria de permissões
-  mentalidade: investigar a causa raiz, não só o sintoma
+PORT      STATE     SERVICE     VERSION
+22/tcp    open      linux       Bash · Shell Script · permissões · SUID
+53/tcp    open      redes       TCP/IP · modelo OSI · endereçamento · serviços
+80/tcp    open      python      POO · automação · ferramentas CLI com Rich
+443/tcp   open      security    Seg. da Informação (UNIP) · Fortinet · Cloud
+8080/tcp  open      suporte     SaaS · troubleshooting · reprodução de falhas
+3306/tcp  filtered  sql         em estudo...
 
-└─$ cat motivacao.txt
+| perfil-info:
+|   localização : Santo André - SP, Brasil
+|   foco        : auditoria Linux, redes e Python para segurança
+|_  status      : aberto a oportunidades
 
-  O suporte me ensinou a reproduzir falhas e isolar causas.
-  A segurança me ensina a entender como os sistemas quebram
-  e a transformar isso em proteção.
+Nmap done: 1 IP address (1 host up) scanned — 5 serviços abertos, 1 em evolução
 ```
 
 <table>
   <tr>
-    <td align="center" width="25%">🐧<br/><b>Linux</b><br/><sub>Shell, permissões, SUID e auditoria do sistema</sub></td>
-    <td align="center" width="25%">🌐<br/><b>Redes</b><br/><sub>TCP/IP, modelo OSI, endereçamento e firewall</sub></td>
+    <td align="center" width="25%">🐧<br/><b>Linux</b><br/><sub>Shell, permissões e auditoria do sistema</sub></td>
+    <td align="center" width="25%">🌐<br/><b>Redes</b><br/><sub>TCP/IP, modelo OSI e firewall</sub></td>
     <td align="center" width="25%">🐍<br/><b>Python</b><br/><sub>Ferramentas de linha de comando para segurança</sub></td>
-    <td align="center" width="25%">🔍<br/><b>Investigação</b><br/><sub>Reprodução de falhas, evidências e documentação</sub></td>
+    <td align="center" width="25%">🔍<br/><b>Investigação</b><br/><sub>Reprodução de falhas, evidências e causa raiz</sub></td>
   </tr>
 </table>
+
+> O suporte técnico me ensinou a reproduzir falhas e isolar causas. A segurança da informação me ensina a entender **como os sistemas quebram**, e a transformar isso em proteção.
 
 ---
 
 ## 🛡️ Projeto em destaque
 
 <h3 align="center">🔎 <a href="https://github.com/ryan-ruis/suid-scanner">SUID Scanner</a></h3>
-
 <p align="center"><b>Auditoria defensiva de arquivos com permissão SUID em sistemas Linux</b></p>
 
 <p align="center">
@@ -62,24 +63,15 @@
   <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-green?style=flat-square"/>
 </p>
 
-O bit **SUID** pode fazer um programa rodar com os privilégios do dono do arquivo, muitas vezes o `root`. O SUID Scanner localiza esses arquivos e ajuda a priorizar quais merecem revisão:
+O bit **SUID** pode fazer um programa rodar com os privilégios do dono do arquivo, muitas vezes o `root`. Por isso ele é um dos primeiros pontos verificados numa auditoria de escalonamento de privilégios. O SUID Scanner localiza esses arquivos e ajuda a priorizar a revisão:
 
-- 🔍 Varredura com `find` e verificação do bit SUID via `os`/`stat`
-- 🚦 Classificação heurística de risco potencial: **CRÍTICO · ALTO · MÉDIO · REVISAR**, com base em um catálogo de shells, interpretadores, editores e utilitários conhecidos
-- 📋 Proprietário, grupo, permissões, impacto e recomendação para cada resultado
-- 📄 Exportação do relatório em **JSON** para documentação e comparação
-- 🔐 **Somente leitura**: não explora, não escala privilégios e não altera arquivos
-
-```text
-$ python3 suid_scanner.py --path /usr/bin --json relatorio.json
-
-┏━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
-┃ Caminho          ┃ Permissões ┃ Dono:Grupo ┃ Risco potencial ┃
-┡━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
-│ /usr/bin/exemplo │ -rwsr-xr-x │ root:root  │     REVISAR     │
-└──────────────────┴────────────┴────────────┴─────────────────┘
-                                         (exemplo ilustrativo)
-```
+| Recurso | Como funciona |
+|---|---|
+| 🔍 **Varredura** | `find -perm -4000` e reconfirmação do bit SUID via `os.stat` |
+| 🚦 **Classificação de risco** | Catálogo heurístico: shells, interpretadores, editores e utilitários → **CRÍTICO · ALTO · MÉDIO · REVISAR** |
+| 📋 **Contexto** | Permissões, dono, grupo, impacto e recomendação para cada achado |
+| 📄 **Relatório** | Exportação em JSON para documentação e comparação entre varreduras |
+| 🔐 **Somente leitura** | Não explora, não escala privilégios e não altera nenhum arquivo |
 
 ---
 
@@ -90,12 +82,17 @@ $ python3 suid_scanner.py --path /usr/bin --json relatorio.json
 | 🎮 [Pokémon Terminal RPG](https://github.com/ryan-ruis/Meu-jogo-Pokemon) | RPG no terminal com orientação a objetos: herança, polimorfismo e persistência com pickle | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | 📇 [Agenda de Contatos](https://github.com/ryan-ruis/Agenda-de-Contatos-em-Python) | CRUD em Python, usado também em aulas de programação e desenvolvimento seguro | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 
-### 🗺️ Próximos alvos
+<details>
+<summary><b>🗺️ Roadmap: próximos alvos</b></summary>
+<br/>
 
 - [x] Ferramenta de auditoria de permissões SUID no Linux
 - [ ] Scanner de portas em Python (reconhecimento de rede)
 - [ ] Testes automatizados e exportação CSV no SUID Scanner
+- [ ] SQL e bancos de dados aplicados à investigação
 - [ ] Automação com Selenium + Excel
+
+</details>
 
 ---
 
@@ -134,12 +131,28 @@ $ python3 suid_scanner.py --path /usr/bin --json relatorio.json
 
 ---
 
+## 📈 Atividade
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ryan-ruis&bg_color=0d1117&color=00ff9c&line=00ff9c&point=58a6ff&area=true&area_color=00ff9c&hide_border=true&custom_title=Commits%20nos%20%C3%BAltimos%2031%20dias" alt="Gráfico de atividade" width="100%"/>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryan-ruis/ryan-ruis/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ryan-ruis/ryan-ruis/output/github-snake.svg"/>
+    <img alt="Cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/ryan-ruis/ryan-ruis/output/github-snake-dark.svg"/>
+  </picture>
+</p>
+
+---
+
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-aberto%20a%20oportunidades-00ff9c?style=for-the-badge&labelColor=0d1117" alt="Aberto a oportunidades"/>
 </p>
 <p align="center">
   <sub>Segurança da Informação · Suporte Técnico N2 · Infraestrutura · Automação</sub><br/>
-  <sub><i>Use o conhecimento com ética: só teste o que você tem autorização para testar.</i></sub>
+  <sub><code>// Hack ético: só teste o que você tem autorização para testar.</code></sub>
 </p>
 
 <p align="center">
