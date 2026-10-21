@@ -134,10 +134,6 @@ O bit **SUID** pode fazer um programa rodar com os privilégios do dono do arqui
 ## 📈 Atividade
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ryan-ruis&bg_color=0d1117&color=00ff9c&line=00ff9c&point=58a6ff&area=true&area_color=00ff9c&hide_border=true&custom_title=Commits%20nos%20%C3%BAltimos%2031%20dias" alt="Gráfico de atividade" width="100%"/>
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryan-ruis/ryan-ruis/output/github-snake-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ryan-ruis/ryan-ruis/output/github-snake.svg"/>
