@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0b2416,100:00ff9c&height=200&section=header&text=Ryan%20Ruis&fontSize=56&fontColor=00ff9c&animation=twinkling&fontAlignY=36&desc=Seguran%C3%A7a%20da%20Informa%C3%A7%C3%A3o%20%C2%B7%20Linux%20%C2%B7%20Python&descAlignY=58&descSize=17" alt="Ryan Ruis" width="100%"/>
+  <img src="./assets/banner.svg" alt="Ryan Ruis — Segurança da Informação · Linux · Python" width="100%"/>
 </p>
 
 <p align="center">
@@ -131,26 +131,13 @@ O bit **SUID** pode fazer um programa rodar com os privilégios do dono do arqui
 
 ---
 
-## 📈 Atividade
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryan-ruis/ryan-ruis/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ryan-ruis/ryan-ruis/output/github-snake.svg"/>
-    <img alt="Cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/ryan-ruis/ryan-ruis/output/github-snake-dark.svg"/>
-  </picture>
-</p>
-
----
-
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-aberto%20a%20oportunidades-00ff9c?style=for-the-badge&labelColor=0d1117" alt="Aberto a oportunidades"/>
 </p>
 <p align="center">
-  <sub>Segurança da Informação · Suporte Técnico N2 · Infraestrutura · Automação</sub><br/>
-  <sub><code>// Hack ético: só teste o que você tem autorização para testar.</code></sub>
+  <sub>Segurança da Informação · Suporte Técnico N2 · Infraestrutura · Automação</sub>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff9c,50:0b2416,100:0d1117&height=110&section=footer" alt="footer" width="100%"/>
+  <img src="./assets/skull.svg" alt="Caveira em chamas verdes: conexão encerrada" width="100%"/>
 </p>
