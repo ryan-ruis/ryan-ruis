@@ -139,5 +139,5 @@ O bit **SUID** pode fazer um programa rodar com os privilégios do dono do arqui
 </p>
 
 <p align="center">
-  <img src="./assets/skull.svg" alt="Caveira em chamas verdes: conexão encerrada" width="100%"/>
+  <img src="./assets/skull.svg" alt="Caveira em pixel art pegando fogo: conexão encerrada" width="100%"/>
 </p>
